@@ -1,0 +1,109 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Multimedia
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Windows 32-bit executable
+    internal_properties : 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
+    configuration_id : 4944542724817547570
+    type : 1
+    generation_name : WD Multimedia.exe
+    version :
+     major_version : 27
+     minor_version : 87
+     internal_generation_version : 17
+     autoincrement_version : false
+    icon_filename : .\description.ico
+    language : 2
+ elements :
+  identifier : 0x40ded62a0004944e
+  elements :
+   -
+     name : WIN_Main
+     identifier : 0x40ded83000167853
+     internal_properties : CAAAAAgAAABDzXkV5uML/JQ8kHrG0Peo0dYMoD61k70xpffjYmIRZgJEZnexxz1Eph5pFjnRblXG
+     physical_name : .\WIN_Main.wdw
+     type : 2
+   -
+     name : WIN_POP_VOLUME
+     identifier : 0x414b46f8063c2bed
+     internal_properties : CAAAAAgAAAAXc3+jAH01Np5Gr1kwWTXRH7jaGroYwZiUkGefOMlN03mHACsO+FD231hCvka6RroCAg==
+     physical_name : .\WIN_POP_VOLUME.wdw
+     type : 2
+   -
+     name : CustomFont
+     identifier : 0x41a6254e0091a199
+     internal_properties : CAAAAAgAAACA/vgkg/iw680Ux9Cfu1LgruONvY2uvEtKZOsylpvxJ91xyGk7hfkUkot1Q8M9xTuFjQ==
+     physical_name : .\CustomFont.wdc
+     type : 4
+  other_elements :
+   -
+     physical_name : .\Fonts\Font Awesome 5 Free-Regular-400.otf
+   -
+     physical_name : .\Fonts\Font Awesome 5 Free-Solid-900.otf
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ data_directory : <RepExeOuRepDonneesCommun>
+ common_generation_directory : true
+ languages :
+  - en-GB
+ code_elements :
+  internal_properties : CAAAAAgAAADK6/g+IcDa6UrqNkI0C3x2h/CDgO/i0B08czNFr2onCAb5QJQ5GK051NCvJQFFVkTWIPTJlHfmw5av8sed9dsZ9AjYgypuQcii
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADXobb9NcuVghtwKz54wxD5vyGUwFgRkwfjHg+EtKHn9zU4rgz7hMmR7D9vYPTCtW7DfgJMABjoCpC/Jkva9pT231cKeVdKdjYGgLAqUEgOnJ2P7sHkQYQVUkJTWnnvXUY3e8W39CCWFtj6K3A=
+     code : |1+
+      
+      constant VOLUME_DEF = 60
+      
+      Volume	is int		= LoadParameter("Volume", VOLUME_DEF)
+      Mute	is boolean	= LoadParameter("Mute", False)
+      Fonts	is array of CustomFont dynamic
+      
+      //////////////////////////////////////////////////////////////////////////////
+      // Loads the FontAwesome font used in the project
+      //////////////////////////////////////////////////////////////////////////////
+      Fonts.Add(new CustomFont( "Fonts\Font Awesome 5 Free-Regular-400.otf" ))
+      Fonts.Add(new CustomFont( "Fonts\Font Awesome 5 Free-Solid-900.otf" ))
+     type : 196608
+   -
+     code : |1-
+      
+     type : 196610
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Windows 32-bit executable
+     identifier : 0x40ded62a0005944e
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

@@ -1,0 +1,284 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_POP_VOLUME
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_POP_VOLUME
+ identifier : 0x2242fd0f056eb650
+ internal_properties : CAAAAAgAAABAvScRKkVJ081PdF1sEmB0fTUq3laDIHaHPNm4SpydpHAahMLadMwjW+KX8ACkKKFwkUsmt733DV9RsZ8hjI182Lc7UH2hJLpUPBkWXHae4Mhipg7qEZWbNwOEFxCCGvdfsVjWU+HsvkTgKDt5PLlrfWc/DLJhjd7PeryIbk2m93/agPdr92pdXp/+C4G4JBD+yCAxwihVUb1aV95mjK00xp9X/dW3MvZACATQpuhTnUGeotl2+BSQ1yeY27UeymOaj3LtHkZcqRlufv768UAI6equRcKGWme6L0+UhRZLnS240NNyFOQgPq7j5k7MYbh3KYuPfHeAthWrXQ6uapNIZ+3y69A96IvBhmxi9ZQ3S+YmiEV/X+MgZj95ssGZPy+ius1bEG2MMaH/kxx9WwEl2SwiaMBXyVa4eSXYLEqlCFzGf4abHEV5dWjXSeMqTxcQJFMcsR7cwDGLvAOnPhK2JKBCNKA4/7uED+F7LpdBnE2zOIXXglDThhcWRk45r3jnd256ATwkp3rUnAe4RA9nHWMpxYjtNPY3OPs/1ysGprf6FpfWMRGb6slCVNfkX+ZpqhabQjREhP5P4fbbLp+vdX3NdrOW0g0nlFwvynN7TT+VTIkQ1T8TX/g3wiZzQuocQK5ZTw3QhA89k0/VmAXp64HMu5craKJK4bp/5ej1cLMfVwe289/TjoRbinHkCY4iapcHzoRJwdoHZnLLF+jDY6gdRvt29CtFkf8w3k5mTPIe7PFGXzOmVgkHDhmMaTuqf1nM7uif10ldLDZevXK00BBYL3ww+egRoDuAM2iTzHl9yan8xATXVQlsQYx9qOQIyH06d55aVSg7XX6neFh0jNLJYU2u2v9tby/4+gr4+kXD5eyDsSuX+JUCfawC8cN5txk/ju4ftjIiUR82Y2wdMQxIWZb5Wdr4OxPS/cTvvECgfa8Sdo2fYTBjyMb7JDLOzX393AcjaV730L6UvlHtUAtGnilCJMaCobk=
+ properties :
+  width : 324
+  height : 84
+  widthClient : 318
+  heightClient : 78
+ controls :
+  -
+    name : BTN_VOLUME
+    identifier : 0x2242fd0f056fb650
+    internal_properties : CAAAAAgAAADdYd8XgilBPw6R9ZzmzIs/xFM9ktl+kArzsic8I9iKcKjce1cENljd9IJPFVeUt86MTWSAxYWQMdi/dVWL2RGXiA7Exk5kb/WxBV9I0ICF7G/ni0/7unWkGClQTus5wb/GomCSOYakIJo0ur8WPAICmF86vCoOQqJIr7JU1pes7jsMBVFBvsekfX32lvFzj1tHfNn14ZvCQzMR6QFGfNMj3f54NigSVDqBRUEk/Ls8gnC1vKE1AK3uATRiszs0qscKZVXXKzGcmstNGh3QKVdn4+zx5+LwT1I8avpVze8wRTSq36199ruLkr3jwMkLKMnPyJ9fkIzYSXtTIQcE/dpL2lEHJosWSjfuTHjG/7+Wl1nAHaanDTc6OpbEiu5T6c4wZf1NlPKZddr1EW8MAZUVUbA+7BHs3ujUC7/bZNojwNmOUuER9Xtr76MO1MnJ7em99+9vZ4El6yNLHPRq8CdgvBY8Odj2uky/MvEVgy9ckpTPxF3Bndrd1XVbt3GrZKhgE+WaulJQijqRPzyI9VYhxyagFBOy3iHBshKfB7s/DipauUbGbm60EKvEyKXvxS6JkGnPPYmA1QLkLeZKRL/a9D5WVuw9y9DHW2l5u+1XZXv2dO+rmzp7yI1HBpgSaL0Y6HdkFc/2LVzqTkIluTvtc7IHEwwIJAAOqeXOSsmp6HlmUjcFRJzRX0eZW7GkgdNI6ZeaUYR0boj3FlJStMPkRlwumoVnmFouTvr+ODJ7yCn4Lvhq7O+iYJQGCXvmahPDkXh7D8tCmhftCu4a7qk0dnH/aqDYAwU6AtAyXg5X73tEnQfnLDouZU+nmJs6AJpy4ALdWB7O8Y12qD8SttKjlT5m+PL9lb4VTzkIWWiFlwvu4sMOoEaNEGb+a5zGBUNAc/cnuF1Blh2ghJS7Tb0/cGoyQYRAmpoElCkYgC0ZlUlA7qBRwwblpkw2VrOY+4f7X9dh+h+ND+ZoH5KLJTGflUSBs3wwXUvNyBWNBQySSUJniXMGGTnxl7g6UJ6HojprO7OICMuUUzd6ShhsTh4Dx8qITBOZpKSNWgg7Eh8JhdXAumTPoMlhfwYlFVyrnQMux7MZptOrMdMelVoRoxgiKY34SVuiomLYeEOw3ykF+AuVnu8AkuycOlw9aor6WEk9SnZ20pA7fEiLtKcARcCrtNRAYPyrUExVZZ7UmzSZyZJ7ciYYj5NgsmVyEeBf78vK61mb4RH3TQAThFgUttp8705nGt8PzQz6TBLpC54+/QJ+Yu/Cfejq6s4MB3a7PWBQAvMnZ1jib1GWxfInUOw2OjZKGhKp
+    properties :
+     x : 16
+     y : 21
+     width : 36
+     height : 36
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         // Reverses the mute position
+         Mute = not Mute
+         SaveParameter("Mute", Mute)
+         
+         // If switching to mute mode
+         if Mute then 
+         	
+         	// Reset volume
+         	MultimediaVolume(MultimediaControl, 0)
+         else
+         	
+         	// Restores volume (if set to 0, volume is reset to default value)
+         	if Volume = 0 then Volume = VOLUME_DEF
+         	SLD_VOLUME.ChangeValue( Volume )
+         end
+         
+         // If mute mode is enabled
+         if Mute then
+         	
+         	// Indicates the "mute" mode is enabled
+         	BTN_VOLUME.Caption				= WIN_Main.BTN_MUTE.Caption	
+         	WIN_Main.BTN_VOLUME.Plane		= WIN_Main.PLANE_HIDDEN
+         	WIN_Main.BTN_MUTE.Plane			= WIN_Main.plane_main
+         	
+         else
+         	
+         	// 
+         	BTN_VOLUME.Caption				= WIN_Main.BTN_VOLUME.Caption	
+         	WIN_Main.BTN_VOLUME.Plane		= WIN_Main.plane_main
+         	WIN_Main.BTN_MUTE.Plane			= WIN_Main.PLANE_HIDDEN
+         end
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SLD_VOLUME
+    identifier : 0x2242fd0f0571b650
+    internal_properties : CAAAAAgAAACmK7rofDC7v2+m9CoX9iWLvfosGu6PyuAjjGEGfZB4IMTGYzV8GUhcT6ud/kAM/u2A64v7otR+OM+t5NoO1FmSnsPcBytNzNvfQWvEpKpyFoSjjS8PgONC9bjES5aoOzGFo2CpkHlS/7wBphiy2J3UQdcEBqt0owLK4nql4YGDPx8ay+fEE/frUVqPUQRWIkaTzw+F3rJUky8cIDM2D03h9D7SJKMfxN8DdMH3NX5z15tuSgcE9wIefU4SkayTeedO5+vd3Yji0NvkRDXKU9ehlPp0YtJfNbTBBJyp8h5HaXWc2WjnNbF4QxUO/AyjKw3KGoOluCgwFhwYMvf1W0q0MsLZG2mZNQr3XUTYH2Jvf883r8jtCyR/NHMOW7AI4iKPeZbaFcZnc9Hl4o2ZaUp0q5ixILtV/up7oq5/waNXDbTdgKYRFhk6RlT1iDX+ilWQ/js6Pjxzte5TudFeNPN/ZrLf+lKK/Qh+xQRybqnpjGnvMCCn4dLLwJH0fikGpNwLwMlJh2lBOaQC7kmYTVVZLKGIbkCM5XwTVlrx3zRaGiykIQbhTJLc1sciJrZCMKplPOdJ0YXPOHegK7VjEaPy2u02P70J4kSCqxYrrO9IvadUMZx/JCNqm8SS4toR0t0eA0hTJZdpOb/PLepOFyWvEpqCF6urK2RfTHS62NqgxiTJKK25FsctUydXDRU67dxuLQ+tpEiM3b2SOYLrvudU5blDg42hLIWeSH6zQCrzP6gEKN8HcbcZHq74q2NhI4VBvqtc
+    properties :
+     x : 64
+     y : 18
+     width : 191
+     height : 42
+    type : 12
+    code_elements :
+     type_code : 20
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABlT2Cr/xGwcsXGEyyIMyZPDQcm8F7b359tXCcK/GFJYafKyLz9ZkXddgXjOsh2KwTt2Ggoxt6Lr0u64dLjbQlp4CS9KIQlPQ+tNyP5QVdjr36UjUyNmMfWnSW+KUq+DjVE3KAOieZQUAaoWQI=
+        code : |1-
+         
+         // Stores
+         Volume = SLD_VOLUME
+         SaveParameter("Volume", Volume)
+         
+         // If mute mode was enabled
+         if Mute then 
+         	
+         	// Disables mute mode
+         	Mute				= False
+         	
+         	// Restores the text of the Volume button
+         	BTN_VOLUME.Caption	= WIN_Main.BTN_VOLUME.Caption
+         end
+         
+         // Changes media volume 
+         MultimediaVolume(MultimediaControl, Volume)
+         
+         if Volume = 0 then
+         	
+         	// Switch to mute mode
+         	Mute				= True
+         	BTN_VOLUME.Caption	= WIN_Main.BTN_MUTE.Caption
+         end
+         
+         // Display
+         PROGBAR_VOLUME				= Volume
+         STC_VOLUME					= Volume
+         WIN_Main.BTN_VOLUME.ToolTip	= "Volume: [%Volume%]"
+        type : 28
+      -
+        code : |1-
+         
+         // If the left mouse button is pressed
+         if KeyPressed(kpLButton) then
+         	
+         	// Gets the value under the cursor
+         	let FLIGHT = mousevalue( MouseXPos(mpControl) )
+         	
+         	// Forces the value
+         	ChangeValue( FLIGHT )
+         end
+        type : 66048
+      -
+        code : |1+
+         
+         // Gets the value under the cursor
+         let FLIGHT = mousevalue( MouseXPos(mpControl) )
+         
+         // Forces the value
+         ChangeValue( FLIGHT )
+        type : 66049
+      -
+        code : |1-
+         
+        type : 66050
+     procedures :
+      -
+        name : MouseValue
+        procedure_id : 1315892282025162320
+        type_code : 14
+        code : |1-
+         // Summary: Returns the value of Slider control according to the position of the mouse cursor
+         // Syntax:
+         // MouseValue ()
+         //
+         // Parameters:
+         //	None
+         // Return value:
+         // 	None
+         //
+         procedure mousevalue( X is int ) : int
+         
+         // Calculates the position based on the mouse coordinates
+         // Offset the Slider button by half its width. Its center determines the position
+         // The width used is the entire width of the slider minus the width of the slider cursor.
+         return ( X - CoordinateEditorToScreen(12) ) * SLD_VOLUME.MaxValue / ( SLD_VOLUME.Width - CoordinateEditorToScreen(24) )
+        type : 458752
+      -
+        name : ChangeValue
+        procedure_id : 1315892282025227856
+        type_code : 14
+        code : |1+
+         // Summary: Changes the value of the slider
+         // Syntax:
+         //ChangeValue (<POS>)
+         //
+         // Parameters:
+         // 	POS: New position
+         // Return value:
+         // 	None
+         //
+         procedure ChangeValue( Pos )
+         
+         // If the value is different from the current position
+         if SLD_VOLUME <> Pos then
+         	
+         	// Changes the current position
+         	SLD_VOLUME = Pos
+         	
+         	// Executes the modification process
+         	SLD_VOLUME.ExecuteProcess(trtChange)	
+         end
+        type : 458752
+     procedure_templates : []
+     property_templates : []
+  -
+    name : PROGBAR_VOLUME
+    identifier : 0x2242fd0f0570b650
+    internal_properties : CAAAAAgAAADvwyndkICnaDpanaSCCjDA06v09yXrYpztDbKF2qyUDXteIkOSXPhlBZdTH0fz/nDm4/11QDEIzS3vvwU99tTHmpv+KNX+51UJKTiNcpX63oH9416Zg0IKwsP7hgZuMa+JaK3PEXNzMJUo0PLI6SS8K6kxanykaKS1uc957KnpQLJ+b6ovjzEBTx6exo3gz0A0Camd94lDmYwXX2IFuTqqlLQcWQMbSEgC8cQo+IrSvQQ9niX89n4S7ENCrLGNg8jc3sEQ+3NToVGlJvMNpQJ4V/YI6KbBHYZzeO7gRVNAKIq6dEOYCYTKE9Qy9jysD2Ws5pMP9O2ix7yyjiiSTd9Q1BWxQuw1GPc8qcFDkwteJTM+yBmL90r3lpW4bxsto7TVixMT5DtEvdNHUqker2GILmObL+2OsC2ojtxEJJcIJkeiciEVH8xgq5uOyTO5QlwCX5tTX/CABPNHCEnuatEnuykri3+98wiKiaAxo+6BeNEFPOpTxmxNdTT2YaULy3Fd6QDC7xg7VN5ouvDeba+ULlz89Xg95Vfmihd5BHnEs4lJKR8IXVADlhJaLOaLjHafImG9cvuPESr3pSKYlTNTgU8yk08G9C0Nz6yjL17LQgZaeeAqrkLaBKqoEYI6GSe9yhM/pJukFR3AeCfJrLAbfzTcIyRLTn0auDShrbqX8/c67MzDspb8GHBlOkOTkgHQvnxzRFvpNmli0/SgBBZxbECAznsFZeoYwdGTOPnwEWmIdgB0rFmIlnBd/dPz9tW5BCPvSBxlIV7d0whSAGyVD1VCpB2tC4oOrSeJyLa3iCp6qWgso2FGrZTwT30CBaaY0RD/IFZKfRKMgCXHG82XW7vzCRIvCfIVb1BpFX5BMEbCb27G
+    properties :
+     x : 76
+     y : 38
+     width : 167
+     height : 3
+    type : 10
+    code_elements :
+     type_code : 17
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Simple horizontal progress bar without caption
+        type : 14
+  -
+    name : STC_VOLUME
+    identifier : 0x2242fd0f0572b650
+    internal_properties : CAAAAAgAAACyuMl3B6t2ksh6EBgyAkSiMq65hzCQOA/xQ2idGzaRpKtfgrJzYvOk4/NAJQkzYkZumH7Rw69vwWVGPQU1rQAG5rqDrydjhEH3MnmnPpav8oT0PdwuDxHYEaaez8e2+V5iXlcqWkh0ACXQkbFcSfm1uFQtIci8cEi03WM3cxDLFZFt7EAhIzKz0HvUrDvau+LpnTNn5ImsSRMZDflM5A5dtLjLsR4e3eHsn5pfdU/Qz6WAPkNB7rkjlBlWP/m9BXJsvoNv713L5KWv+7tF70SE9+4KV6YwAbkWJXLzdqPS8zfITsHoc+rPkHSJc5HkDCYohJVE59msPEMcumkjq/9xw/OdzteN4X9Z1nOo/8g3zuWrB100iTU0DjefL+/W5N1yrTqlz09r7qC/AX5ijUs7FxUTtTbZVvQrj0lUEctkab12/CuW27ox152FdFYbPCV5buY83btUD/cv2AcVbhkJWuIX5znQ473FhSzbfvnVyBlc478nc/AaucImYxbQzcrmY0/qWp2D+Pu0+ll1i7WHETfgn0hA9quyND16d8dO2ybUZZ1OgRmmg+3QYwZe2ALQvbE=
+    properties :
+     x : 259
+     y : 18
+     width : 44
+     height : 42
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      //--- Popup window ---
+      // To access the popup control or combo box that opened this window
+      // you can use: MyPopupControl
+      procedure MyWindow( MultimediaControl is Control )
+      
+      SLD_VOLUME.MaxValue		= 100
+      PROGBAR_VOLUME.MaxValue	= 100
+      
+      // If mute mode is enabled
+      if Mute then
+      	
+      	// Indicates the "mute" mode is enabled
+      	BTN_VOLUME.Caption				= WIN_Main.BTN_MUTE.Caption	
+      	
+      	// Display
+      	SLD_VOLUME						= Volume
+      	PROGBAR_VOLUME					= Volume
+      	STC_VOLUME						= Volume
+      	
+      else
+      	
+      	// Display
+      	SLD_VOLUME.ChangeValue( Volume )
+      	
+      	// 
+      	BTN_VOLUME.Caption				= WIN_Main.BTN_VOLUME.Caption	
+      end
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x114b46f3464c194f
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

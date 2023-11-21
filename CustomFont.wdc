@@ -1,0 +1,72 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : CustomFont
+ major_version : 28
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+class :
+ identifier : 0x1242fd0e00c0b2d6
+ internal_properties : CAAAAAgAAAB2/vstTMCJbS/hlxjFxirSqKvCUuv8YxgpWyl7S3iA
+ code_elements :
+  type_code : 10
+  p_codes :
+   -
+     code : |1-
+      CustomFont is class
+      	
+      private
+      	m_sFont is string
+      	
+      end
+     type : 131072
+  procedures :
+   -
+     name : Constructeur
+     internal_properties : CAAAAAgAAAAklRNYzkNlCnutTf0orfd5C1G8qoVUNZ70DjorneFnDEjoU2G6evcxNL2pgj+LT562gLoSOWylVriAaZ1UnWRMGJhNu9UzMejuM4lM10SIDPC5Xzf+6enhZpNcMG8OMjvocEZ2zf1/MUm/ca5wZLWuQVQduQgeuXzNNhV2l/A=
+     procedure_id : 1315892277729669846
+     type_code : 27
+     code : |1-
+      procedure Constructor( sName is string )
+      
+      // Unique name
+      m_sFont = GetIdentifier() + [ "." ] + fExtractPath(sName, fExtension)
+      
+      // Extracts the file from the library
+      if fFileExist(fTempDir() + [ fSep ] + m_sFont) = False then fExtractResource(sName, fTempDir() + [ fSep ] + m_sFont)
+      
+      sFontPath is string ANSI = fTempDir() + [ fSep ] + m_sFont
+      
+      // Unloads then loads
+      API("gdi32", "RemoveFontResourceExA", &sFontPath, 0x10, 0)
+      API("gdi32", "AddFontResourceExA", &sFontPath, 0x10, 0)
+     type : 589824
+   -
+     name : Destructeur
+     internal_properties : CAAAAAgAAACJa1zXv62yllFqBwisp8ZfsevuLAZ3BwtJsIumiFVJSVtWmNilwnXhEvlPlkzyi5wBfNgUhlr5PU0UtygFy0crgkpbrg5T270XaZEfo+XpOYiC+9KXVg2sp/9Ef4TkVIdWwpYMy044TALUdS4=
+     procedure_id : 1315892277729735382
+     type_code : 28
+     code : |1-
+      procedure Destructor()
+      
+      sFontPath is string ANSI = fTempDir() + [ fSep ] + m_sFont
+      
+      // Cancels the loading of fonts
+      API("gdi32", "RemoveFontResourceExA", &sFontPath, 0x10, 0)
+      
+      // Deletes the extracted file
+      fDelete(fTempDir() + [ fSep ] + m_sFont, frReadOnly)
+     type : 655360
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : Classe1
+resources :
+ string_res :
+  identifier : 0x11a6254900b78c8a
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
